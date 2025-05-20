@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - DecoraNest</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f5f0e1] font-sans">
+  <div class="flex items-center justify-center min-h-screen px-4">
+    <div class="bg-white rounded-xl shadow-lg w-full max-w-md p-8">
+      <h2 class="text-2xl font-bold text-[#5c3a21] text-center mb-6">Login to DecoraNest</h2>
+      
+      <form action="#" method="POST" class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-[#5c3a21] mb-1">Full Name</label>
+          <input type="text" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#8b5e3c]" placeholder="Your Name" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-[#5c3a21] mb-1">Email or Phone</label>
+          <input type="text" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#8b5e3c]" placeholder="Email or Phone Number" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-[#5c3a21] mb-1">Location</label>
+          <input type="text" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#8b5e3c]" placeholder="Your Location" />
+        </div>
+
+        <button type="submit" class="w-full bg-[#8b5e3c] text-white py-2 rounded-md hover:bg-[#704428] transition">Login / Register</button>
+      </form>
+
+      <div class="mt-6 text-center text-sm text-gray-500">or login with</div>
+
+      <div class="mt-4 flex justify-center gap-4">
+        <button class="flex items-center gap-2 border px-4 py-2 rounded hover:bg-gray-100">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" class="h-5" alt="Google Logo">
+          Google
+        </button>
+        <button class="flex items-center gap-2 border px-4 py-2 rounded hover:bg-gray-100">
